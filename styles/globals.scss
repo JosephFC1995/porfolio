@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-background text-black;
+  font-family: var(--font-inter);
+}
+
+@layer base {
+  h1 {
+    @apply scroll-m-20 text-4xl font-bold tracking-normal lg:text-5xl;
+  }
+  h2 {
+    @apply scroll-m-20 text-2xl font-bold tracking-normal lg:text-[32px] lg:leading-[34px];
+  }
+  h3 {
+    @apply scroll-m-20 text-xl font-bold tracking-normal lg:text-2xl;
+  }
+  h4 {
+    @apply scroll-m-20 text-base font-bold tracking-normal lg:text-[18px] lg:leading-[22px];
+  }
+}
+
+@layer components {
+  .btn {
+    @apply flex h-12 cursor-pointer items-center justify-center gap-2 rounded-full bg-black px-8 font-inter font-bold text-white transition duration-500;
+    &:hover {
+      @apply shadow-black;
+    }
+    &:active {
+      &:hover {
+        @apply shadow-none;
+      }
+    }
+    &.btn-primary {
+      @apply bg-primary text-black;
+      &:hover {
+        @apply shadow-green;
+      }
+    }
+    &.btn-outline {
+      @apply border border-black bg-transparent text-black;
+    }
+    &.size {
+      &-small {
+        @apply h-[42px];
+      }
+      &-normal {
+        @apply h-12;
+      }
+      &-large {
+        @apply h-14;
+      }
+    }
+  }
+  .mask-gradient {
+    -webkit-mask-image: radial-gradient(50% 50% at 50% 50%, #f2f3f6 58.85%, rgba(229, 229, 229, 0) 100%);
+    mask-image: radial-gradient(50% 50% at 50% 50%, #f2f3f6 58.85%, rgba(229, 229, 229, 0) 100%);
+  }
+}
