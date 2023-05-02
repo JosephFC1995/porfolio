@@ -59,7 +59,7 @@ const Header: FC<HeaderProps> = () => {
     <>
       <header
         className={cn(
-          'fixed left-1/2 z-50 mt-[30px] flex h-[70px] w-full -translate-x-1/2 items-center justify-between px-2 transition-all duration-300 md:px-8',
+          'fixed left-1/2 z-50 mt-[30px] flex h-[70px] w-full -translate-x-1/2 items-center justify-between px-4 transition-all duration-300 md:px-8',
           hasScrollPage && ' mt-0 bg-background shadow-xl shadow-black/5'
         )}
       >
@@ -68,7 +68,7 @@ const Header: FC<HeaderProps> = () => {
             Joseph <span className="font-jost text-primary">DEV</span>
           </a>
         </div>
-        <div className="flex flex-1 justify-center">
+        <div className="hidden flex-1 justify-center md:flex">
           <nav>
             <Scrollspy
               items={['top', 'work', 'resume', 'contact']}
@@ -102,11 +102,11 @@ const Header: FC<HeaderProps> = () => {
         </div>
         <div className="flex flex-1 justify-end">
           <div className="flex gap-4">
-            <Link href={'https://www.linkedin.com'} target="_blank" className="relative">
+            <Link href={'https://www.linkedin.com/in/josefc9512/'} target="_blank" className="relative">
               <span className="absolute -right-1 -top-1 h-[8px] w-[8px] rounded-full bg-primary"></span>
               <Linkedin color="black" size={24} />
             </Link>
-            <Link href={'https://www.github.com'} target="_blank" className="relative">
+            <Link href={'https://github.com/JosephFC1995'} target="_blank" className="relative">
               <span className="absolute -right-1 -top-1 h-[8px] w-[8px] rounded-full bg-primary"></span>
               <Github color="black" size={24} />
             </Link>

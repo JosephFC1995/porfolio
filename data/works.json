@@ -1,0 +1,98 @@
+[
+  {
+    "image": "/images/rbm.png",
+    "title": "RBM Import",
+    "tags": ["WordPress", "HTML & CSS"],
+    "description": "Web portal for RBM Import company.",
+    "previewLink": null,
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/krear3d.png",
+    "title": "Krear 3D",
+    "tags": ["WordPress", "HTML & CSS"],
+    "description": "Website for Krear3D company.",
+    "previewLink": "https://krear3d.com/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/aulavirtual.png",
+    "title": "Aula Virtual - TC",
+    "tags": ["JavaScript", "Vue JS", "HTML & CSS"],
+    "description": "Virtual classroom for publishing courses for the TC.",
+    "previewLink": "https://aulavirtual.sedetc.gob.pe/#/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/tc.png",
+    "title": "Tribunal Constitucional",
+    "tags": ["WordPress", "HTML & CSS"],
+    "description": "Web portal for the national entity of the TC",
+    "previewLink": "https://www.tc.gob.pe/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/hattbo.png",
+    "title": "Hattbo",
+    "tags": ["Vue JS", "HTML & CSS", "Node JS"],
+    "description": "Facebook Messenger virtual store.",
+    "previewLink": null,
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/senati-admision.png",
+    "title": "Senati Admisión",
+    "tags": ["HTML & CSS", "JavaScript"],
+    "description": "Lead generation system for Senati.",
+    "previewLink": "https://admisionsenati.com/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/mqdh.png",
+    "title": "Maestro que deja Huella",
+    "tags": ["WordPress", "HTML & CSS", "JavaScript"],
+    "description": "Web portal for Intercorp group.",
+    "previewLink": "https://maestroquedejahuella.com.pe/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/sanisidro.png",
+    "title": "San Isidro en tus manos",
+    "tags": ["Android"],
+    "description": "Mobile application for the Municipality of San Isidro.",
+    "previewLink": "https://maestroquedejahuella.com.pe/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/jurisprudencia.png",
+    "title": "Portal de Jurisprudencia",
+    "tags": ["JavaScript", "Vue JS", "HTML & CSS"],
+    "description": "Web application that allows indexing of PDF documents.",
+    "previewLink": "https://jurisprudencia.sedetc.gob.pe/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/hotel.png",
+    "title": "Hotel 'La Bella y el León'",
+    "tags": ["WordPress", "HTML & CSS", "JavaScript"],
+    "description": "Informative website for the hotel 'La Bella y el León'.",
+    "previewLink": "https://hotel.lisamahotels.com/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/backoffice.png",
+    "title": "BackOffice Comunal",
+    "tags": ["TypeScript", "Vue JS", "HTML & CSS"],
+    "description": "Web application for booking workspace..",
+    "previewLink": "https://backoffice.comunal.co/",
+    "repositoryLink": null
+  },
+  {
+    "image": "/images/workplace.png",
+    "title": "Comunal Workplace",
+    "tags": ["JavaScript", "React", "React Native"],
+    "description": "Mobile application for booking workspace.",
+    "previewLink": "https://play.google.com/store/apps/details?id=com.comunalworkplace",
+    "repositoryLink": null
+  }
+]

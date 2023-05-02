@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
 					--font-inter: ${inter.style.fontFamily};
 				}
 			`}</style>
-			<main className={cn(inter.className)}>
+			<main className={cn(inter.className, 'overflow-x-hidden')}>
 				<Component {...pageProps} />
 			</main>
 		</>
